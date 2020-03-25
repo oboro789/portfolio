@@ -85,6 +85,7 @@ main h2{
     height: 50px;
     bottom: 0;
     position: absolute;
+    display: fixed;
 }
 .foot a{
     font-size: 3rem;
