@@ -66,11 +66,12 @@ main{
     width: 100%;
 }
 main h2{
-    font-size: 15rem;
+    font-size: 14rem;
     color: white;
     white-space: nowrap;
     text-align: center;
     padding: 30px;
+    line-height: 200px;
 }
 /*フッター*/
 .foot{
@@ -147,7 +148,7 @@ main h2{
         line-height: 120px;
         padding: initial;
     }
-    .toptext{
+    .mainbox{
         margin: 20% 0;
     }
     .foot{
@@ -158,5 +159,4 @@ main h2{
         font-size: 2rem;
         margin: 4px 4%;
     }
-    
 }
