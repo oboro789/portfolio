@@ -154,6 +154,7 @@ main h2{
     .mainbox h2{
         font-size: 4rem;
         line-height: 120px;
+        padding: initial;
     }
     .foot{
         height: 40px;
