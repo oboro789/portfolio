@@ -62,7 +62,10 @@ body{
 }
 /*メイン*/
 /*トップ*/
-main h2{
+.mainbox{
+    width: 100%;
+}
+.mainbox h2{
     font-size: 14rem;
     color: white;
     white-space: nowrap;
@@ -103,11 +106,11 @@ main h2{
         text-align: center;
         margin-right: 40px;
     }
-    main{
+    .mainbox{
         display: table-cell;
         vertical-align: middle;
     }
-    main h2{
+    .mainbox h2{
         font-size: 10.5rem;
         text-align: initial;
         line-height: 200px;
