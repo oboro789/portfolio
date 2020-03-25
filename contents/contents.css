@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    color: #000c15;
+    background-color: #e8edf8;
+}
+/*ヘッダー*/
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.headerbox{
+    background-color: rgba(255,255,255,0.7);
+    font-family: 'Caveat', cursive;
+    width: 100%;
+    font-size: 3.5rem;
+    height: 100px;
+}
+
+.headerbox h1{
+    float: left;
+    margin: 20px;
+    display: block;
+}
+.headerbox a{
+    text-decoration: none;
+    color: #000c15;
+}
+.headerbox a:hover{
+    color: #797979;
+}
+.header-inner{
+    height: 100px;
+    padding: 50px 20px;
+    float: right;
+}
+
+.header-inner ul{
+    list-style: none;
+    text-align: center;
+    color: #000c15;
+}
+li{
+    display: inline;
+    padding: 0 35px;
+    margin-right: 50px;
+}
+.header-inner a{
+    text-decoration: none;
+    color: black;
+}
+.header-inner a:hover{
+    color: #797979;
+}
+
+/*メイン*/
+/*コンテンツ*/
+/*about*/
+.aboutbox{
+    width: 100%;
+    text-align: center;
+}
+.aboutbox h1{
+    font-size: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1%;
+}
+.about{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    border: medium solid #000c15;
+    border-radius: 10px;
+}
+.about h2{
+    margin: 10px;
+    padding: 20px;
+    font-size: 3rem;
+}
+.about h3{
+    width: 50%;
+    padding: 7px;
+    font-size: 1.7rem;
+    margin: auto;
+}
+.profile p{
+    width: 50%;
+    padding: 7px;
+    font-size: 1.7rem;
+    margin: auto;
+    text-align: justify;
+}
+.about img{
+    border-radius: 50%;
+    border: 10px double #000c15;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 2%;
+}
+.hobby img{
+    border-radius: 5px;
+    border: 10px double #000c15;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 3%;
+}
+/*skills*/
+.skillsbox{
+    width: 100%;
+    text-align: center;
+}
+.skillsbox h1{
+    font-size: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1%;
+}
+.skills{
+    display: flex;
+    margin: 0 6%;
+}
+.pc{
+    background-color: white;
+    width: 50%;
+    border: medium solid #000c15;
+    border-radius: 10px;
+    margin: 0 5%;
+}
+.skillsbox h1::after{
+    clear: both;
+	display: block;
+	content:" ";
+}
+.pc h2{
+    width: auto;
+    margin: 10px;
+    padding: 20px;
+    font-size: 3rem;
+}
+.pc p{
+    padding: 5px;
+    font-size: 2rem;
+}
+.pc img{
+    border-radius: 50%;
+    border: 10px double #000c15;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 2%;
+}
+/*works*/
+.worksbox{
+    width: 100%;
+    text-align: center;
+}
+.worksbox h1{
+    font-size: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1%;
+}
+.works{
+    background-color: white;
+    border: medium solid #000c15;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+.works h2{
+    font-size: 4rem;
+    margin-top: 2%;
+}
+.web{
+    display: flex;
+}
+.web p{
+    padding: 5px;
+    font-size: 2rem;
+}
+.work1{
+    position: relative;
+    margin: 0 auto;
+    padding: 40px;
+}
+.work1 a{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    font-size: 2rem;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    background-color: #000c15;
+    }
+.work1 h2{
+    font-size: 3rem;
+}
+.work1 a:hover{
+    background: rgba(255,255,255,0.9);
+    color: #000c15;
+    }
+.work1 img{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    border: 10px double #000c15;
+    object-fit: cover;
+    margin-top: 2%;;
+}
+/*フッター*/
+.foot{
+    background-color: rgba(255,255,255,0.7);
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+}
+.foot a{
+    font-size: 3rem;
+    margin: 0.5% 0;
+    padding: 0 3%;
+    color: #000c15;
+}
+.icon i:hover{
+    color: #797979;
+}
+.icon{
+    float: right;
+}
+.text1{
+    color: white;
+}
+@media only screen and (min-width:640px) and (max-width:1023px) {
+    /*tablet*/
+    .headerbox{
+        height: 180px;
+    }
+    .header-inner{
+        width: initial;
+        padding-top: 0;
+        text-align: center;
+        margin-right: 40px;
+    }
+    /*about*/
+    .about{
+        margin-bottom: 20px;
+    }
+    .profile h2{
+        font-size: 4rem;
+    }
+    .profile p{
+        width: 85%;
+    }
+    .hobby h2{
+        font-size: 4.5rem
+    }
+    /*skills*/
+    .skillsbox h2{
+        font-size: 10.5rem;
+    }
+    .pc img{
+        width: 200px;
+        height: 200px;
+    }
+    /*works*/
+    .works{
+        width: initial;
+        padding: 0 3%;
+        margin: 0 5%;
+    }
+    .works h2{
+        font-size: 4.5em;
+    }
+    .work1 a{
+        top: 70%;
+        font-size: 1.5rem;
+    }
+    .web img{
+        width: 200px;
+        height: 150px; 
+    }
+    
+    .foot{
+        height: 70px;
+    }
+    .foot a{
+        margin: 2% 4%;
+    }
+}
+    
+    
+@media screen and (max-width:639px) {
+    /*スマホ*/
+    .headerbox h1{
+        font-size: 4.5rem;
+        float: initial;
+        display: initial;
+    }
+    .headerbox{
+        height: 100px;
+    }
+    .header-inner{
+        width: initial;
+        text-align: center;
+        padding-top: 0;
+        float: initial;
+    }
+    .header-inner li{
+        font-size: 2rem;
+        margin: initial;
+        padding: 0 20px;
+    }
+    /*about*/
+    .aboutbox h1{
+        font-size: 4rem;
+    }
+    .about{
+        width: 90%;
+    }
+    .profile h3{
+        width: 70%;
+    }
+    .profile p{
+        width: 90%;
+    }
+    .about img{
+        width: 200px;
+        height: 200px;
+    }
+    /*skills*/
+    .skillsbox h1{
+        font-size: 4rem;
+    }
+    .skills{
+        display: initial;
+    }
+    .pc{
+        width: initial;
+        margin: 0 5% 6% 5%;
+    }
+    .pc img{
+        width: 200px;
+        height: 200px;
+    }
+    /*works*/
+    .worksbox h1{
+        font-size: 4rem;
+    }
+    .works{
+        width: initial;
+        margin: 0 5%;
+        margin-bottom: 10px;
+    }
+    .works h2{
+        font-size: 2.5rem;
+    }
+    .work1{
+        padding: 20px;
+    }
+    .work1 a{
+        top: 70%;
+        font-size: 1.5rem;
+    }
+    .web{
+        display: initial;
+    }
+    .web img{
+        width: 200px;
+        height: 150px;
+    }
+
+    .foot{
+        height: 40px;
+        text-align: center;
+    }
+    .foot a{
+        font-size: 2rem;
+        margin: 4px 4%;
+    }
+    
+    }
