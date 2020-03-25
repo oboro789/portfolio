@@ -13,10 +13,10 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    min-height: 100vh;
 }
 /*ヘッダー*/
 .wrapper{
-    min-height: 100vh;
     position: relative;
 }
 .headerbox{
