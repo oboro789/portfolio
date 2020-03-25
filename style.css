@@ -62,9 +62,6 @@ body{
 }
 /*メイン*/
 /*トップ*/
-main{
-    width: 100%;
-}
 main h2{
     font-size: 14rem;
     color: white;
