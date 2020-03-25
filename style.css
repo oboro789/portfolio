@@ -76,7 +76,7 @@ main h2{
     color: white;
     white-space: nowrap;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 /*フッター*/
 .foot{
@@ -152,9 +152,8 @@ main h2{
         margin: 20% 0;
     }
     .mainbox h2{
-        font-size: 3rem;
-        text-align: initial;
-        line-height: 130px;
+        font-size: 4rem;
+        line-height: 120px;
     }
     .foot{
         height: 40px;
