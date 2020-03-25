@@ -323,10 +323,13 @@ li{
     }
     /*about*/
     .aboutbox h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .about{
         width: 90%;
+    }
+    .profile h2{
+        font-size: 2.5rem;
     }
     .profile h3{
         width: 70%;
@@ -340,7 +343,7 @@ li{
     }
     /*skills*/
     .skillsbox h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .skills{
         display: initial;
@@ -355,7 +358,7 @@ li{
     }
     /*works*/
     .worksbox h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .works{
         width: initial;
