@@ -75,6 +75,7 @@ ul.inner li{
     background-color: white;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 5%;
     border: medium solid #000c15;
     border-radius: 10px;
 }
@@ -116,6 +117,7 @@ ul.inner li{
 .skillsbox{
     width: 100%;
     text-align: center;
+    margin-bottom: 5%;
 }
 .skillsbox h1{
     font-size: 6rem;
@@ -160,6 +162,7 @@ ul.inner li{
 .worksbox{
     width: 100%;
     text-align: center;
+    margin-bottom: 5%;
 }
 .worksbox h1{
     font-size: 6rem;
@@ -251,7 +254,8 @@ ul.work1 img{
     /*tablet*/
     .headerbox{
         height: 180px;
-    }
+        margin-bottom: 4%;
+    }    
     .header-inner{
         width: initial;
         padding-top: 0;
@@ -260,7 +264,7 @@ ul.work1 img{
     }
     /*about*/
     .about{
-        margin-bottom: 20px;
+        margin-bottom: 9%;
     }
     .profile h2{
         font-size: 4rem;
@@ -273,7 +277,7 @@ ul.work1 img{
     }
     /*skills*/
     .skillsbox h2{
-        font-size: 10.5rem;
+        font-size: 4rem;
     }
     .pc img{
         width: 200px;
@@ -328,6 +332,9 @@ ul.work1 img{
         padding: 0 20px;
     }
     /*about*/
+    .aboutbox{
+        margin-bottom: 12%;
+    }
     .aboutbox h1{
         font-size: 3rem;
     }
@@ -369,7 +376,7 @@ ul.work1 img{
     .works{
         width: initial;
         margin: 0 5%;
-        margin-bottom: 10px;
+        margin-bottom: 12%;
     }
     .works h2{
         font-size: 2.5rem;
