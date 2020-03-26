@@ -46,7 +46,7 @@ body{
     text-align: center;
     color: #000c15;
 }
-li{
+ul.inner li{
     display: inline;
     padding: 0 35px;
     margin-right: 50px;
@@ -178,18 +178,24 @@ li{
     margin-top: 2%;
 }
 .web{
+    list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
 }
 .web p{
     padding: 5px;
     font-size: 2rem;
 }
 .work1{
+   margin: auto;
+}
+ul.work1 li{
     position: relative;
     margin: 0 auto;
     padding: 40px;
+    display: inline-block;
 }
-.work1 a{
+ul.work1 a{
     position: absolute;
     top: 80%;
     left: 50%;
@@ -203,14 +209,14 @@ li{
     text-decoration: none;
     background-color: #000c15;
     }
-.work1 h2{
+ul.work1 h2{
     font-size: 3rem;
 }
-.work1 a:hover{
+ul.work1 a:hover{
     background: rgba(255,255,255,0.9);
     color: #000c15;
     }
-.work1 img{
+ul.work1 img{
     width: 400px;
     height: 300px;
     border-radius: 5px;
@@ -282,11 +288,11 @@ li{
     .works h2{
         font-size: 4.5em;
     }
-    .work1 a{
+    ul.work1 a{
         top: 70%;
         font-size: 1.5rem;
     }
-    .web img{
+    ul.work1 img{
         width: 200px;
         height: 150px; 
     }
@@ -316,7 +322,7 @@ li{
         padding-top: 0;
         float: initial;
     }
-    .header-inner li{
+    ul.inner li{
         font-size: 2rem;
         margin: initial;
         padding: 0 20px;
@@ -371,14 +377,17 @@ li{
     .work1{
         padding: 20px;
     }
-    .work1 a{
+    ul.work1 a{
         top: 70%;
         font-size: 1.5rem;
     }
     .web{
         display: initial;
     }
-    .web img{
+    ul.work1 li{
+        padding: 3% 0;
+    }
+    ul.work1 img{
         width: 200px;
         height: 150px;
     }
