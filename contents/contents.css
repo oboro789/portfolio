@@ -173,7 +173,7 @@ ul.inner li{
     background-color: white;
     border: medium solid #000c15;
     border-radius: 10px;
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 .works h2{
@@ -182,15 +182,13 @@ ul.inner li{
 }
 .web{
     list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
 }
 .web p{
     padding: 5px;
     font-size: 2rem;
 }
 .work1{
-   margin: auto;
+    margin: auto;
 }
 ul.work1 li{
     position: relative;
