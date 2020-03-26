@@ -46,7 +46,7 @@ body{
     text-align: center;
     color: #000c15;
 }
-li{
+ul.inner li{
     display: inline;
     padding: 0 35px;
     margin-right: 50px;
@@ -75,6 +75,7 @@ li{
     background-color: white;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 5%;
     border: medium solid #000c15;
     border-radius: 10px;
 }
@@ -116,6 +117,7 @@ li{
 .skillsbox{
     width: 100%;
     text-align: center;
+    margin-bottom: 5%;
 }
 .skillsbox h1{
     font-size: 6rem;
@@ -160,6 +162,7 @@ li{
 .worksbox{
     width: 100%;
     text-align: center;
+    margin-bottom: 5%;
 }
 .worksbox h1{
     font-size: 6rem;
@@ -170,7 +173,7 @@ li{
     background-color: white;
     border: medium solid #000c15;
     border-radius: 10px;
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 .works h2{
@@ -178,18 +181,22 @@ li{
     margin-top: 2%;
 }
 .web{
-    display: flex;
+    list-style-type: none;
 }
 .web p{
     padding: 5px;
     font-size: 2rem;
 }
 .work1{
+    margin: auto;
+}
+ul.work1 li{
     position: relative;
     margin: 0 auto;
     padding: 40px;
+    display: inline-block;
 }
-.work1 a{
+ul.work1 a{
     position: absolute;
     top: 80%;
     left: 50%;
@@ -203,14 +210,14 @@ li{
     text-decoration: none;
     background-color: #000c15;
     }
-.work1 h2{
+ul.work1 h2{
     font-size: 3rem;
 }
-.work1 a:hover{
+ul.work1 a:hover{
     background: rgba(255,255,255,0.9);
     color: #000c15;
     }
-.work1 img{
+ul.work1 img{
     width: 400px;
     height: 300px;
     border-radius: 5px;
@@ -245,7 +252,8 @@ li{
     /*tablet*/
     .headerbox{
         height: 180px;
-    }
+        margin-bottom: 4%;
+    }    
     .header-inner{
         width: initial;
         padding-top: 0;
@@ -254,7 +262,7 @@ li{
     }
     /*about*/
     .about{
-        margin-bottom: 20px;
+        margin-bottom: 9%;
     }
     .profile h2{
         font-size: 4rem;
@@ -267,7 +275,7 @@ li{
     }
     /*skills*/
     .skillsbox h2{
-        font-size: 10.5rem;
+        font-size: 4rem;
     }
     .pc img{
         width: 200px;
@@ -282,11 +290,11 @@ li{
     .works h2{
         font-size: 4.5em;
     }
-    .work1 a{
+    ul.work1 a{
         top: 70%;
         font-size: 1.5rem;
     }
-    .web img{
+    ul.work1 img{
         width: 200px;
         height: 150px; 
     }
@@ -316,12 +324,15 @@ li{
         padding-top: 0;
         float: initial;
     }
-    .header-inner li{
+    ul.inner li{
         font-size: 2rem;
         margin: initial;
         padding: 0 20px;
     }
     /*about*/
+    .aboutbox{
+        margin-bottom: 12%;
+    }
     .aboutbox h1{
         font-size: 3rem;
     }
@@ -329,7 +340,7 @@ li{
         width: 90%;
     }
     .profile h2{
-	font-size:2.5rem;
+        font-size: 2.5rem;
     }
     .profile h3{
         width: 70%;
@@ -363,7 +374,7 @@ li{
     .works{
         width: initial;
         margin: 0 5%;
-        margin-bottom: 10px;
+        margin-bottom: 12%;
     }
     .works h2{
         font-size: 2.5rem;
@@ -371,14 +382,17 @@ li{
     .work1{
         padding: 20px;
     }
-    .work1 a{
+    ul.work1 a{
         top: 70%;
         font-size: 1.5rem;
     }
     .web{
         display: initial;
     }
-    .web img{
+    ul.work1 li{
+        padding: 3% 0;
+    }
+    ul.work1 img{
         width: 200px;
         height: 150px;
     }
